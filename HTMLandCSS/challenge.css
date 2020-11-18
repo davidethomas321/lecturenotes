@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(7, 81, 105);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nav-left {
+    width: 100%;
+    background-color: rgb(6, 63, 82);
+}
+
+.nav-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60px;
+    font-family: Lucida Sans, Charcoal, sans-serif;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.login {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Charcoal, sans-serif;
+    color: rgba(255, 255, 255, 0.932);
+    background-color: rgb(7, 81, 105);
+}
+
+.login-box {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Impact, Charcoal, sans-serif;
+    color: rgba(255, 255, 255, 0.932);
+    background-color: rgb(7, 81, 105);
+}
